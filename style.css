@@ -1,0 +1,912 @@
+/*+++++++++++++defaunt options+++++++++++++++++*/
+
+/* 
+	Plan my file
+
+	0.options
+
+	1.header
+
+	2.service_1
+
+	3.service_2
+
+	4.service_3
+
+	5.service_4
+
+	6.service_5
+
+	7.service_6
+
+	8.service_7
+
+	9.footer
+
+	10.Addition || update for file
+*/
+
+
+
+
+
+
+@import url(http://allfont.ru/allfont.css?fonts=academy-italic);
+
+*
+{
+	margin:0;
+	padding:0;
+	font-family: 'Academy Italic', arial;
+}
+
+html { overflow-x: hidden}
+
+body
+{
+	background-color: #fff;
+}
+
+
+/******************My options for file********************/
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+.clear
+{
+	clear: both
+}
+
+.container
+{
+	width:1171px;
+	margin:0 auto;
+}
+
+.margin-left
+{
+	margin-left:23px;
+}
+
+.center
+{
+	text-align: center;
+}
+
+
+
+/********************Header*************************/
+
+/* logo and social */
+
+header
+{
+	height: 151px;
+}
+
+header a:first-child
+{
+	margin-right:12px;
+	display: inline-block;
+	position: relative;
+	top:37px;
+	right: 5px
+}
+
+header a
+{
+	margin-right:12px;
+	display: inline-block;
+	position: relative;
+	top:17px;
+}
+
+
+header img:last-child
+{
+	margin-right:0px;
+}
+
+
+.logo
+{
+	float: left;
+	height: 140px
+}
+
+header .logo a i
+{
+	color:#a1b1bc;
+	font-size: 32px
+}
+
+header .logo a i:hover
+{
+	color:#74452b;
+	font-size: 32px;
+	transition: all 0.5s ease;
+}
+
+
+/* phone */
+
+header .phone
+{
+	margin-top: 65px;
+}
+
+header .phone span
+{
+	color:#a1b1bc;
+	font-size: 18px;
+}
+
+header .phone span:last-child
+{
+	margin-left:44px;
+}
+
+/* tag br have class = "ots" */
+.ots
+{
+	display: none
+}
+
+/* header */
+
+/*+++++++++++++++++++service_1++++++++++++++++++++++++++++*/
+
+#service_1
+{
+	height: 505px;
+}
+
+.text-room 
+{
+	width: 50%;
+	height: 505px;
+	float: left;
+}
+
+.text-room  h2
+{
+	font-size: 48px;
+	color:#74452b;
+	font-weight: 100;
+	margin-top: 60px
+}
+
+.text-room p
+{
+	font-size: 19px;
+	margin-top: 25px;
+	line-height:22px
+}
+
+.text-room h3
+{
+	font-size: 24px;
+	margin-top: 30px;
+	color:#74452b;
+}
+
+.text-room h3:after
+{
+	content:"";
+	display: inline-block;
+	height: 2px;
+	width: 90px;
+	background:#74452b;
+	position: relative;
+	bottom: 3px;
+	left: 20px
+}
+
+.text-room button
+{
+	width: 195px;
+	height: 50px;
+	border: 1px solid #74452b;
+	background-color: #fff;
+	margin-top: 30px;
+	font-size: 18px
+}
+
+/* img */
+
+.photo-room 
+{
+	width: 50%;
+	height: 505px;
+	float: right;
+}
+
+.photo-room img
+{
+	position: relative;
+	left: 15px
+}
+
+/*++++++++++++++++++++++++service_1++++++++++++++++++++++++*/
+
+/* service_2 */
+
+#service_2
+{
+	height: 320px;
+	z-index: 15
+}
+
+#service_2 p
+{
+	padding-top: 120px;
+	font-size: 18px;
+	position: relative;
+}
+
+#service_2 p:after
+{
+	content: "”";
+	position: absolute;
+	font-size: 220px;
+	right: 200px;
+	top:130px;
+	color:#74452b;
+}
+
+#service_2 p:before
+{
+	content: "“";
+	position: absolute;
+	font-size: 220px;
+	left: 197px;
+	top: 60px;
+	color:#74452b;
+}
+
+
+
+/*+++++++++++++++++++++++++++service_2+++++++++++++++++++++++*/
+
+/*+++++++++++++++++++++++++++service_3+++++++++++++++++++++++*/
+
+#service_3
+{
+	height: 570px;
+}
+
+.jump_left
+{
+	margin-left: 7px
+}
+
+#service_3 .photo-show , #service_3 .text-show
+{
+	width: 50%;
+	height: 570px;
+}
+
+/*++++++++++++++++++++I tried+++++++++++++++++*/
+
+#service_3 .photo-show 
+{
+	/* test */
+}
+
+#service_3 .text-show 
+{
+	/* test */ 
+}
+
+#service_3 .text-show h2
+{
+	font-size: 48px;
+	font-weight:100;
+	margin-top: 85px;
+	text-transform: uppercase;
+	color:#74452b;
+}
+
+#service_3 .text-show p
+{
+	font-size: 18px;
+	margin-top: 20px
+}
+
+#service_3 .text-show h3
+{
+	margin-top: 30px;
+	color:#74452b;
+}
+
+#service_3 .text-show h3:after
+{
+	content:"";
+	display: inline-block;
+	height: 2px;
+	width: 90px;
+	background:#74452b;
+	position: relative;
+	bottom: 3px;
+	left: 20px
+}
+
+{
+	margin-top: 30px;
+	color:#74452b;
+}
+
+
+#service_3 .text-show button
+{
+	width: 195px;
+	height: 50px;
+	border: 1px solid #74452b;
+	margin-top: 30px;
+	font-size: 18px
+}
+
+/*+++++++++++++++++++++service_3++++++++++++++++++++++++++*/
+
+/*+++++++++++++++++++++service_4+++++++++++++++++++++++++*/
+
+#service_4
+{
+	height: 760px;
+}
+
+#service_4 .girl_1 , #service_4 .girl_2
+{
+	width: 570px;
+	height: 286px;
+}
+
+#service_4 h2
+{
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding-top:60px;
+	color: #74452b;
+	padding-bottom: 99px
+}
+
+#service_4 .girl_1 , #service_4 .girl_2
+{
+	border: 1px solid #74452b
+}
+/* padding-text */
+#service_4 .girl_1 h4,
+#service_4 .girl_2 h4
+{
+	padding-top:87px;
+}
+
+#service_4 .girl_1 h4,
+#service_4 .girl_2 h4,
+#service_4 .girl_1 p,
+#service_4 .girl_2 p
+{
+	padding-left:39px
+}
+
+#service_4 .girl_1 h4,
+#service_4 .girl_2 h4
+{
+	font-size: 24px;
+	color:#74452b;
+	text-transform: uppercase;
+	font-weight: 300
+}
+
+#service_4 .girl_1 p,
+#service_4 .girl_2 p
+{
+	font-size: 16px;
+	font-weight: 600
+}
+
+#service_4 .girl_1 .text-girl , #service_4 .girl_2 .text-girl
+{
+	width: 50%
+}
+
+#service_4 .girl_1 .photo-girl , #service_4 .girl_2 .photo-girl
+{
+	width: 47%
+}
+
+#service_4 .photo-girl
+{
+	position: relative;
+	bottom:163px;
+}
+
+/*++++++++++++++++++++++service_4+++++++++++++++++++++++++*/
+
+/*+++++++++++++++++++++++service_5++++++++++++++++++++++++*/
+#service_5
+{
+	/* background-color: red; */
+	 height: 500px;
+}
+
+
+#service_5 h2
+{
+	font-size: 48px;
+	text-transform: uppercase;
+	color:#74452b;
+	font-weight: 100;
+	padding-top: 0px
+}
+
+#service_5 .table-div 
+{
+	width: 100%;
+	height:400px;
+}
+
+#service_5 .table-div 
+{
+	width: 100%;
+	height:400px;
+	margin-top:50px 
+}
+
+#service_5 .table-div .tab_div 
+{
+	width: 375px;
+	height:67px;
+	float: left;
+	border-bottom:2px solid #bfbebf;
+	margin-bottom: 20px
+}
+
+/*++++++++++++++++++options_tables++++++++++++++++++++++++*/
+
+#service_5 .table-div .tab_div .text_massagia
+{
+	width: 70%;
+	height:45px;
+	font-size: 18px
+}
+
+#service_5 .table-div .tab_div .min_massagia
+{
+	width: 70%;
+	height:22px;
+	font-size:14px;
+	color:#74452b;
+}
+
+/* time.img create for .min_massagia */
+
+#service_5 .table-div .tab_div .min_massagia:before
+{
+	content: "";
+	width: 16px;
+	height: 16px;
+	background:url(img/time.png);
+	display: inline-block;
+	position: relative;
+	top:2.2px;
+}
+
+#service_5 .table-div .tab_div .price_massagia
+{
+	width:30%;
+	height:67px;
+	position: relative;
+	bottom: 45px
+}
+
+#service_5 .table-div .tab_div .price_massagia span
+{
+	font-size: 50px;
+	position: relative;
+	left: 40px;
+}
+
+
+#service_5 .table-div .tab_div .price_massagia span:after
+{
+	content:'BYN';
+	font-size: 13px;
+	position: absolute;
+	top:5px;
+	right:-30px;
+	color: #74452b
+}
+
+
+/*++++++++++++++++++++++++service_5++++++++++++++++++++++++*/
+
+/*+++++++++++++++++++++++++service_6+++++++++++++++++++++++*/
+
+#service_6
+{
+	height: 265px;
+}
+
+#service_6 h3
+{
+	color:#74452b;
+	font-size: 24px;
+	padding-top:5px
+}
+
+#service_6 h3:after
+{
+	content:"";
+	display: inline-block;
+	height: 2px;
+	width: 90px;
+	background:#74452b;
+	position: relative;
+	bottom: 3px;
+	left: 20px
+}
+
+{
+	color:#74452b;
+	font-size: 24px;
+	padding-top:5px
+}
+
+
+
+#service_6 button
+{
+	width: 195px;
+	height: 50px;
+	border: 1px solid #74452b;
+	margin-top: 30px;
+	font-size: 18px
+}
+
+/*++++++++++++++++++++++++service_6+++++++++++++++++++++++++*/
+
+/*++++++++++++++++++++++++service_7+++++++++++++++++++++++++*/
+
+#service_7
+{
+	height: 670px;
+}
+
+#service_7 .programm_lo ,#service_7 .text_lo
+{
+	width: 50%;
+	height: 670px;
+}
+
+#service_7 .programm_lo
+{
+	width: 50%;
+	height: 670px;
+}
+
+#service_7 .text_lo
+{
+	width: 50%;
+	height: 670px;
+}
+
+#service_7 .text_lo h3
+{
+	font-size: 48px;
+	font-weight: 100
+}
+
+#service_7 .text_lo p
+{
+	font-size: 19px;
+	padding-top: 35px
+}
+
+#service_7 .text_lo .jump-left
+{
+	margin-left: 25px
+}
+
+
+#service_7 .text_lo .box_percentages
+{
+	position: relative;
+}
+
+
+#service_7 .text_lo .box_percentages:after
+{
+	content:"";
+	display: inline-block;
+	height: 2px;
+	width: 90px;
+	background:#74452b;
+	position: absolute;
+	bottom:197px;
+	left: 240px;
+}
+
+
+#service_7 .text_lo .box_percentages
+{
+	width: 50%;
+}
+
+
+#service_7 .text_lo .box_percentages p:first-child 
+{
+	margin:0;
+	padding-top:30px;
+}
+
+#service_7 .text_lo .box_percentages p 
+{
+	margin:0;
+	padding-top:8px;
+	font-size: 27px;
+	color:#74452b;
+}
+
+#service_7 .text_lo .box_percentages button
+{
+	width: 195px;
+	height: 50px;
+	border: 1px solid #74452b;
+	margin-top: 69px;
+	font-size: 18px
+}
+
+
+
+
+/*++++++++++++++++++++++++service_7+++++++++++++++++++++++*/
+
+footer
+{
+	height: 181px;
+	background-color: black
+}
+
+footer a:first-child
+{
+	margin-right:12px;
+	display: inline-block;
+	position: relative;
+	top:37px;
+	right: 5px
+}
+
+footer a
+{
+	margin-right:12px;
+	display: inline-block;
+	position: relative;
+	top:17px;
+}
+
+
+footer img:last-child
+{
+	margin-right:0px;
+}
+
+.logo
+{
+	float: left;
+	height: 140px
+}
+
+
+footer .logo a i
+{
+	color:#a1b1bc;
+	font-size: 32px
+}
+
+footer .logo a i:hover
+{
+	color:#74452b;
+	font-size: 32px;
+	transition: all 0.5s ease;
+}
+/* phone */
+
+footer .phone
+{
+	margin-top: 65px;
+}
+
+footer .phone span
+{
+	color:#a1b1bc;
+	font-size: 18px;
+}
+
+footer .phone span:last-child
+{
+	margin-left:44px;
+}
+
+.ots
+{
+	display: none
+}
+
+/* header */
+
+/* header */
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/* update button and other */
+
+/*
+
+.clean_link:after
+{
+	content: "Виды массажа";
+	margin-left: 20px;
+	border-bottom: 2px dotted #ccc;
+	color:#ccc;
+}
+
+.clean_link_2:after
+{
+	content: "Наши мастера";
+	margin-left: 20px;
+	border-bottom: 2px dotted #ccc;
+	color:#ccc;
+}
+
+.clean_link_3:after
+{
+	content: "Контакты";
+	margin-left: 20px;
+	border-bottom: 2px dotted #ccc;
+	color:#ccc;
+}
+
+*/
+
+.clean_link a
+{
+	color:#a1b1bc;
+	border-bottom:1.3px dotted;
+	text-decoration: none;
+	margin-left: 20px
+}
+
+.clean_link_2 a
+{
+	color:#a1b1bc;
+	border-bottom:1.3px dotted;
+	text-decoration: none;
+	margin-left: 20px
+}
+
+.clean_link_3 a
+{
+	color:#a1b1bc;
+	border-bottom:1.3px dotted;
+	text-decoration: none;
+	margin-left: 20px
+}
+
+button
+{
+	background-color:white;
+}
+
+button:hover
+{
+	background-color:#74452b;
+	color:#fff;
+	transition: all 0.5s ease;
+}
+
+/*+++++++++++++++++++++++++for img file+++++++++++++++++++++++*/
+
+/* service_2 */
+
+.container_jump
+{
+	height: 100%;
+	position: relative;
+	z-index: 10;
+}
+
+.container_jump:before
+{
+	content: "";
+	position: absolute;
+	height: 303px;
+	width: 473px;
+	background: url(img/camni.png);
+	z-index: 5;
+	left:-350px
+}
+
+/*+++++++++++++++++++++++service_3+++++++++++++++++++++++++++*/
+
+.container_jump_2
+{
+	height: 100%;
+	position: relative;
+	z-index: 10;
+}
+
+.container_jump_2:after
+{
+	content: "";
+	position: absolute;
+	height: 255px;
+	width: 408px;
+	background: url(img/chamomile.png);
+	z-index: 3;
+	right: -265px;
+	top: 390px
+}
+
+
+/*+++++++++++++++++++++++service_4+++++++++++++++++++++++++++*/
+
+.container_jump_3
+{
+	height: 100%;
+	position: relative;
+	z-index: 10;
+}
+
+.container_jump_3:after
+{
+	content: "";
+	position: absolute;
+	height: 240px;
+	width: 625px;
+	background: url(img/chaino.png);
+	z-index: 3;
+	left: -355px;
+	top:504px;
+}
+
+/* service_6 */
+
+.container_jump_4
+{
+	height: 100%;
+	position: relative;
+	z-index: 10;
+}
+
+.container_jump_4:after
+{
+	content: "";
+	position: absolute;
+	height: 255px;
+	width: 800px;
+	background: url(img/polot.png);
+	z-index: 3;
+	right: -150px;
+	top:-20px
+}
+
+
+/* button */
+
+button 
+{
+	cursor: pointer;
+}
+
+
+/* END =) */
